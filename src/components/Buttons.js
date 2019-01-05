@@ -9,7 +9,7 @@ const Buttons = props =>
             id="tweet-quote"
             className="twitter"
             href={`https://twitter.com/intent/tweet?text=${props.tweet}`}
-            target="_blank">
+            target="_blank" rel="noopener noreferrer">
             <img src="twitter.png" alt="Twitter Logo"/>
           </a>
         </div>
