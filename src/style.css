@@ -1,0 +1,61 @@
+/* Global */
+body {
+  background: radial-gradient(circle, #fff, #ccf, #c9f);
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-family: 'Gugi', 'Lucida Sans Unicode', 'Lucida Grande', cursive;
+  margin-top: 5%;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+/* Quote */
+#quote-box {
+  width: 50%;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 50px auto;
+}
+
+#author {
+  font-size: 18px;
+}
+
+.quote {
+  font-size: 28px;
+  font-family: 'Stylish', 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.quote-sign {
+  font-size: 36px;
+}
+
+/* Button */
+#new-quote {
+  background-color: #66f;
+  color: white;
+  font-size: 16px;
+  font-family: 'Rokkitt', Tahoma, Geneva, sans-serif;
+  text-transform: uppercase;
+  border: #fff 5px solid;
+  border-radius: 50px;
+  padding: 15px 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  background-color: #bf00ff;
+}
+
+@media only screen and (max-width: 766px) {
+  #new-quote {
+    margin-top: 20px;
+  }
+}
