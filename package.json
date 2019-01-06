@@ -15,7 +15,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "merge": "^1.2.1"
+    "merge": "^1.2.1",
+    "webpack-dev-server": "^3.1.11"
   },
   "browserslist": [
     ">0.2%",
